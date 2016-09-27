@@ -13,13 +13,11 @@ a) Modify the following code so that the loop outputs the numbers 5-15
 b) Re-write the loop as a while loop
 */
 
-//a
 for($i=5;$i<=15;$i++)
 {
     echo $i."<br/>";
 }
 
-//b
 $i=5;
 while($i<=15)
 {
@@ -39,6 +37,7 @@ e) Sort this larger list of countries into reverse alphabetical order (do some r
 
 $moreCountries=array("Nigeria","Bangladesh","Russia","Japan");
 $countries=["China","India","USA","Indonesia","Brazil","Pakistan"];
+
 print_r($countries);
 echo "<p>".$countries[0].", ".$countries[1].", ".$countries[3]." and ".$countries[5]." are all in Asia</p>";
 
@@ -96,5 +95,6 @@ echo "<p>String length = ".strlen($moduleStr)."</p>";
 echo "<p>".strtolower($moduleStr)."</p>";
 echo "<p>".substr($moduleStr,8,3)."</p>";
 ?>
+
 </body>
 </html>
