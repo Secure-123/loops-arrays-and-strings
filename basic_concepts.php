@@ -13,7 +13,7 @@ a) Modify the following code so that the loop outputs the numbers 5-15
 b) Re-write the loop as a while loop
 */
 
-for($i=5;$i<=15;$i++)
+for($i=1;$i<=10;$i++)
 {
     echo $i."<br/>";
 }
@@ -29,7 +29,7 @@ http://php.net/manual/en/function.array-merge.php. Output the joined array using
 e) Sort this larger list of countries into reverse alphabetical order (do some research into sorting functions) and output the result using a foreach loop.
 */
 
-$moreCountries=array("Nigeria","Bangladesh","Russia","Japan");
+$moreCountries=["Nigeria","Bangladesh","Russia","Japan"];
 $countries=["China","India","USA","Indonesia","Brazil","Pakistan"];
 
 /*
@@ -43,8 +43,7 @@ d) Output the data from (c) using an HTML table.
 $bands=[
     ["name"=>"The Rolling Stones", "formed"=>1962, "location"=>"London","genre"=>"Rock"],
     ["name"=>"The Beatles", "formed"=>1960, "location"=>"Liverpool","genre"=>"Rock"],
-    ["name"=>"The Wu-Tang Clan", "formed"=>1992, "location"=>"New York","genre"=>"Hip-hop"],
-    ["name"=>"Busted", "formed"=>2000, "location"=>"Southend-on-Sea","genre"=>"Pop"],
+    ["name"=>"The Wu-Tang Clan", "formed"=>1992, "location"=>"New York","genre"=>"Hip-hop"]
 ];
 
 /*
