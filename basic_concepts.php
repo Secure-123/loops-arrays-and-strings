@@ -21,8 +21,8 @@ for($i=5;$i<=15;$i++)
 
 /*
 Q2) Arrays
-a) Output the entire contents of the array using a print_r() statement
-b) Using the array, write an echo statement that outputs 'China, India, Indonesia and Pakistan are all in Asia'
+a) Output the entire contents of the $countries array using a print_r() statement
+b) Using this array, write an echo statement that outputs 'China, India, Indonesia and Pakistan are all in Asia'
 c) Output the entire contents of the array as an HTML list using a foreach loop
 d) Uncomment the line that declares the $moreCountries array. Join the two arrays together  Do some research using php.net 
 http://php.net/manual/en/function.array-merge.php. Output the joined array using a print_r() statement.
@@ -34,10 +34,10 @@ $countries=["China","India","USA","Indonesia","Brazil","Pakistan"];
 
 /*
 Q3) Associative Arrays
-a) Using this array, write an echo statement that outputs 'The Wu-Tang Clan were formed in 1992'
+a) Using the $bands array, write an echo statement that outputs 'The Wu-Tang Clan were formed in 1992'
 b) Add another band to the array, using an echo statement, output some of new the band's details
 c) Using a foreach loop display the details for all the bands
-d) Output the data from (c) this using an HTML table. 
+d) Output the data from (c) using an HTML table. 
 */
 
 $bands=[
@@ -49,10 +49,10 @@ $bands=[
 
 /*
 Q4) Strings
-a) Using the following string, write an echo statement that outputs, the fifth character in the string
-b) Use the strlen() function to output the length of the string
-c) Convert the string to lowercase and output it.
-d) Use the substr() function to output the word 'Web'
+a) Using the following string, write an echo statement that outputs the fifth character in the string
+b) Use the strlen() (http://php.net/manual/en/function.strlen.php) function to output the length of the string
+c) Convert the string to lowercase (http://php.net/manual/en/function.strtolower.php) and output it.
+d) Use the substr() (http://php.net/manual/en/function.substr.php) function to output the word 'Web'
 */
 
 $moduleStr="CIT2318 Web Design and Programming";
