@@ -2,8 +2,7 @@
 $bands=[
     ["name"=>"The Rolling Stones", "formed"=>1962, "location"=>"London","genre"=>"Rock"],
     ["name"=>"The Beatles", "formed"=>1960, "location"=>"Liverpool","genre"=>"Rock"],
-    ["name"=>"The Wu-Tang Clan", "formed"=>1992, "location"=>"New York","genre"=>"Hip-hop"],
-    ["name"=>"Vampire Weekend", "formed"=>2006, "location"=>"New York","genre"=>"Rock"],
+    ["name"=>"The Wu-Tang Clan", "formed"=>1992, "location"=>"New York","genre"=>"Hip-hop"]
 ];
 ?>
 <!DOCTYPE HTML>
@@ -14,5 +13,6 @@ $bands=[
 </head>
 <body>
 Search results will appear here.
+
 </body>
 </html>
