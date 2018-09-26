@@ -8,6 +8,7 @@ $bands=[
     ["name"=>"The Rolling Stones", "formed"=>1962, "location"=>"London","genre"=>"Rock"],
     ["name"=>"The Beatles", "formed"=>1960, "location"=>"Liverpool","genre"=>"Rock"],
     ["name"=>"The Wu-Tang Clan", "formed"=>1992, "location"=>"New York","genre"=>"Hip-hop"],
+    ["name"=>"Busted", "formed"=>2000, "location"=>"Southend-on-Sea","genre"=>"Pop"],
 ];
 if(isset($_POST["submitBtn"])){
 	$location=trim($_POST["location"]);
@@ -43,7 +44,7 @@ if($errors){
 	if(count($results)>0)
 	{
 		foreach($results as $band){
-			echo "<p>".$band["name"]."</p>";
+			echo "<p>{$band["name"]}</p>";
 		}
 	}else{
 		echo "<p>Sorry no results</p>";

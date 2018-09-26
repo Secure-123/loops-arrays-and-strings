@@ -15,13 +15,13 @@ b) Re-write the loop as a while loop
 
 for($i=5;$i<=15;$i++)
 {
-    echo $i."<br/>";
+    echo "{$i}<br>";
 }
 
 $i=5;
 while($i<=15)
 {
-    echo $i."<br/>";
+    echo "{$i}<br>";
     $i++;
 }
 
@@ -39,11 +39,11 @@ $moreCountries=["Nigeria","Bangladesh","Russia","Japan"];
 $countries=["China","India","USA","Indonesia","Brazil","Pakistan"];
 
 print_r($countries);
-echo "<p>".$countries[0].", ".$countries[1].", ".$countries[3]." and ".$countries[5]." are all in Asia</p>";
+echo "<p>{$countries[0]}, {$countries[1]}, {$countries[3]} and {$countries[5]} are all in Asia</p>";
 
 foreach($countries as $country)
 {
-	echo $country."<br>";
+	echo "$country}<br>";
 }
 
 $mergedArr = array_merge($countries, $moreCountries);
@@ -53,7 +53,7 @@ rsort($mergedArr);
 echo "<ul>";
 foreach($mergedArr as $country)
 {
-	echo "<li>".$country."</li>";
+	echo "<li>{$country}</li>";
 }
 echo "</ul>";
 /*
@@ -71,14 +71,14 @@ $bands=[
     ["name"=>"Busted", "formed"=>2000, "location"=>"Southend-on-Sea","genre"=>"Pop"],
 ];
 
-echo "<p>".$bands[2]["name"]." were formed in ".$bands[2]["formed"]."</p>";
-echo "<p>".$bands[3]["name"]." are from ".$bands[3]["location"]."</p>";
+echo "<p>{$bands[2]["name"]} were formed in {$bands[2]["formed"]}</p>";
+echo "<p>{$bands[3]["name"]} are from {$bands[3]["location"]}</p>";
 
 echo "<table>";
 echo "<tr><th>Name</th><th>Formed</th><tr>";
 foreach($bands as $band)
 {
-	echo "<tr><td>".$band["name"]."</td><td>".$band["formed"]."</td></tr>";
+	echo "<tr><td>{$band["name"]}</td><td>{$band["formed"]}</td></tr>";
 }
 echo "</table>";
 /*
@@ -90,10 +90,10 @@ d) Use the substr() (http://php.net/manual/en/function.substr.php) function to o
 */
 
 $moduleStr="CIT2318 Web Design and Programming";
-echo "<p>".$moduleStr[4]."</p>";
-echo "<p>String length = ".strlen($moduleStr)."</p>";
-echo "<p>".strtolower($moduleStr)."</p>";
-echo "<p>".substr($moduleStr,8,3)."</p>";
+echo "<p>{$moduleStr[4]}</p>";
+echo "<p>String length = {strlen($moduleStr)}</p>";
+echo "<p>{strtolower($moduleStr)}</p>";
+echo "<p>{substr($moduleStr,8,3)}</p>";
 ?>
 
 </body>

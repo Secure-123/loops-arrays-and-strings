@@ -39,7 +39,7 @@ if($errors){
 	echo "<ul>";
 	foreach($winners as $winner)
 	{
-		echo "<li>".$winner."</li>";
+		echo "<li>{$winner}</li>";
 	}
 	echo "</ul>";
 }
