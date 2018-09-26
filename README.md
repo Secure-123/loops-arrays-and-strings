@@ -1,6 +1,6 @@
 # Loops, Arrays and Strings
 
-The notes on [Loops and Arrays in PHP](php-arrays-loops.md) should help you complete the following exercises.
+The notes on <a href="https://github.com/CIT2318/loops-arrays-and-strings/blob/master/php-arrays-loops.md" target="_blank">Loops and Arrays in PHP</a> should help you complete the following exercises.
 
 1. Open *basic_concepts.php*. Answer the questions in comments in this file.
 2. Have a look at *band_form.html* and *display_bands.php*. Write some PHP code so that when the user enters selects a genre and submits the form, the details for all the bands that match the chosen genre should be displayed.
