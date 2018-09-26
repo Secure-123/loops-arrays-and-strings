@@ -101,7 +101,7 @@ If we don’t specify an index the new data is simply added to the end of the ar
 $shopping[]="biscuits"; //add a new item
 ?>
 ```
-We can concatenate using element in an array
+We can concatenate using elements in an array
 
 ```php
 <?php
