@@ -1,7 +1,7 @@
 # PHP Loops, Arrays and Strings
 
 ## Loops
-These work in a similar way to many other programming languages - java, JavaScript etc.
+These work in a similar way to many other programming languages - Java, JavaScript etc.
 
 Here's a while loop:
 ```php
