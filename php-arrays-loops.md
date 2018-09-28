@@ -217,6 +217,7 @@ echo "</table>";
 ?>
 ```
 We would get something like the following (if we add some CSS)
+
 | Name   |       Population       |       
 |:--:|:-------------:|
 |Germany|81000000|
